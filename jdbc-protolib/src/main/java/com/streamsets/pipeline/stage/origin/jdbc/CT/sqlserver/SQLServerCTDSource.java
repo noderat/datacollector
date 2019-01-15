@@ -67,6 +67,7 @@ public class SQLServerCTDSource extends DPushSource {
     tableJdbcConfigBean.quoteChar = QuoteChar.NONE;
     tableJdbcConfigBean.numberOfThreads = ctTableJdbcConfigBean.numberOfThreads;
     tableJdbcConfigBean.tableOrderStrategy = ctTableJdbcConfigBean.tableOrderStrategy;
+    tableJdbcConfigBean.unknownTypeAction = ctTableJdbcConfigBean.unknownTypeAction;
 
     return tableJdbcConfigBean;
   }
